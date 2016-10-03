@@ -21,7 +21,9 @@
                                 <rect key="frame" x="223" y="285" width="155" height="30"/>
                                 <state key="normal" title="Change Button Screen"/>
                                 <connections>
-                                    <segue destination="HDs-ZX-Xbo" kind="show" id="CeX-sd-La3"/>
+                                    <action selector="switchScreenToUpdated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BWw-qq-PLA"/>
+                                    <action selector="toChangeScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc2-8P-RJK"/>
+                                    <segue destination="HDs-ZX-Xbo" kind="show" identifier="toUpdatedFromMain" id="CeX-sd-La3"/>
                                 </connections>
                             </button>
                         </subviews>
